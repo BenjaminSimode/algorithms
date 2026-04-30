@@ -1,6 +1,7 @@
 <?php
 
-function isPalindrome(string $string): bool {
+function isPalindrome(string $string): bool
+{
     $string = strtolower($string);
 
     $reversedString = strrev($string);
